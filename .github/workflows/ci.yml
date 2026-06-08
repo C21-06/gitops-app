@@ -2,7 +2,7 @@ name: CI - Build, Push & Scan
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, vulnerability-demo ]
   workflow_dispatch:
 
 env:
